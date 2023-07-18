@@ -35,7 +35,7 @@ node{
         sh "${mavenCMD} clean package"        
     }
     
-    stage('publish test reports'), reportDir: '/var/lib/jenkins/workspace/Insureme/target/surefire-reports', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
+    stage('publish test reports'), reportDir: '/var/lib/jenkins/workspace/banking_finance/target/surefire-reports', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
     }
     
     stage('Containerize the application'){
