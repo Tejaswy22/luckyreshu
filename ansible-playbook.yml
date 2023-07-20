@@ -16,4 +16,4 @@
     become : yes
     become_user : root
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8081 shubhamkushwah123/banking_finance2:1.0
+    command: docker run -itd -p 8084:8081 tejalucky/banking_finance2:1.0
