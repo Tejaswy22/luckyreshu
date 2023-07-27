@@ -129,7 +129,7 @@ resource "aws_instance" "Prod-Server" {
  ami = "ami-053b0d53c279acc90"
  instance_type = "t2.micro"
  availability_zone = "us-east-1a"
- key_name = "rohan"
+ key_name = "reshu"
  network_interface {
  device_index = 0
  network_interface_id = aws_network_interface.proj-ni.id
